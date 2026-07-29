@@ -25,7 +25,7 @@
 
 Using your own Shader implementation
 
-  By default, the plugin provides a DefaultShader implementation but with version 1.6 you can use your own implementation.
+  By default, the plugin provides a DefaultShader implementation. You can, however, use your own implementation.
 
   Create a standard Maven project with your implementation.
 
