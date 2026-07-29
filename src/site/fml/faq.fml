@@ -28,14 +28,14 @@ under the License.
      <question>Why Does My Second Shade Include The Results Of The First Execution?</question>
      <answer>
        <p>
-       By default, shade replaces with original jar with the result of shading.
+       By default, shade replaces the original jar with the result of shading.
        So, when a <code>pom.xml</code> includes two shades, 
        the second shade execution will (by default) start from the result of the 
        first shade execution.
        </p><p>
        If you're looking for two independent shades then read 
        in <a href='shade-mojo.html'>shade:shade</a> about
-       ways choose a different name for your first shade.
+       ways to choose a different name for your first shade.
        </p>
      </answer>
    </faq>
