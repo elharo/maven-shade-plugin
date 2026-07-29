@@ -544,6 +544,7 @@ public class ShadeMojo extends AbstractMojo {
             List<ResourceTransformer> resourceTransformers = getResourceTransformers();
 
             if (createDependencyReducedPom) {
+                File originalProjectFile = project.getFile();
                 createDependencyReducedPom(artifactIds);
 
                 if (useDependencyReducedPomInJar) {
@@ -551,6 +552,7 @@ public class ShadeMojo extends AbstractMojo {
                     resourceTransformers = new ArrayList<>(resourceTransformers);
                     resourceTransformers.addAll(createPomReplaceTransformers(project, dependencyReducedPomLocation));
                 }
+                project.setFile(originalProjectFile);
             }
 
             ShadeRequest shadeRequest =
