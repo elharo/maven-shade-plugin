@@ -25,8 +25,8 @@
 
 ${project.name}
 
- This plugin provides the capability to package the artifact in an uber-jar, including its dependencies,
- and to shade -- i.e. relocate -- the packages of some of the dependencies.
+ This plugin can package the artifact in an uber-jar, including its dependencies,
+ and shade — that is, relocate — the packages of some of the dependencies.
 
 * Goals Overview
 
@@ -42,12 +42,12 @@ ${project.name}
   General instructions on how to use the Shade Plugin can be found on the {{{./usage.html}usage page}}. Some more
   specific use cases are described in the examples given below.
 
-  In case you still have questions regarding the plugin's usage, please feel
+  If you have questions regarding the plugin's usage, please feel
   free to contact the {{{./mailing-lists.html}user mailing list}}. The posts to the mailing list are archived and could
   already contain the answer to your question as part of an older thread. Hence, it is also worth browsing/searching
   the {{{./mailing-lists.html}mail archive}}.
 
-  If you feel like the plugin is missing a feature or has a defect, you can fill a feature request or bug report in our
+  If you think the plugin is missing a feature or has a defect, you can file a feature request or bug report in our
   {{{./issue-management.html}issue tracker}}. When creating a new issue, please provide a comprehensive description of your
   concern. Especially for fixing bugs it is crucial that the developers can reproduce your problem. For this reason,
   entire debug logs, POMs or most preferably little demo projects attached to the issue are very much appreciated.
@@ -58,8 +58,8 @@ ${project.name}
 
 * Examples
 
-  To provide you with better understanding on some usages of the Shade Plugin,
-  you can take a look into the following examples:
+  To help you understand some usages of the Shade Plugin,
+  look into the following examples:
 
   * {{{./examples/includes-excludes.html}Selecting Contents for Uber JAR}}
 
